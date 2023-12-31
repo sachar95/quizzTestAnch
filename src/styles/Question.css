@@ -1,0 +1,32 @@
+  .questionsContainer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .question {
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+
+    .titleQuestion {
+      text-align:start; 
+      padding: 10px 0;
+      border-bottom: 1px solid lightgray;
+    }
+
+  .checkboxQuestion {
+    background-color:rgba(211, 211, 211, 0.178);
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .answersContainer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+  }

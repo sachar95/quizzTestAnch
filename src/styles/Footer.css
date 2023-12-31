@@ -1,0 +1,11 @@
+
+ .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .button {
+    padding: 10px;
+    min-width: 150px;
+  }
